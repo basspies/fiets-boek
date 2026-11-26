@@ -1,0 +1,118 @@
+<?php
+// Startinhoud van de website. Wordt één keer door setup.php in de database gezet.
+// Daarna past de klant alles aan via het CMS (/admin).
+
+return [
+    'pages' => [
+        'home' => [
+            'title_nl' => 'Dé bakfietsspecialist van Amersfoort',
+            'title_en' => 'The cargo bike specialist in Amersfoort',
+            'intro_nl' => 'Onderhoud en reparatie van Urban Arrow, Gazelle Makki en Lovens. Officieel servicepunt voor Amersfoort, Vathorst en Nieuwland.',
+            'intro_en' => 'Maintenance and repair of Urban Arrow, Gazelle Makki and Lovens. Official service point for Amersfoort, Vathorst and Nieuwland.',
+            'body_nl'  => "## Waarom Bakfietsgarage Amersfoort?\n\n- Specialist in bakfietsen\n- Officieel servicepunt van Urban Arrow, Gazelle Makki en Lovens\n- Ervaring met de elektrische systemen van Bosch\n- Snelle service en duidelijke communicatie\n- Actief in Amersfoort, Vathorst en Nieuwland\n\nWij werken alleen op afspraak. Zo hebben we altijd tijd voor jouw bakfiets.",
+            'body_en'  => "## Why Bakfietsgarage Amersfoort?\n\n- Cargo bike specialists\n- Official service point for Urban Arrow, Gazelle Makki and Lovens\n- Experienced with Bosch electric systems\n- Fast service and clear communication\n- Serving Amersfoort, Vathorst and Nieuwland\n\nWe work by appointment only, so we always have time for your cargo bike.",
+            'meta_nl'  => 'Bakfiets onderhoud en reparatie in Amersfoort, Vathorst en Nieuwland. Officieel servicepunt van Urban Arrow, Gazelle Makki en Lovens.',
+            'meta_en'  => 'Cargo bike maintenance and repair in Amersfoort, Vathorst and Nieuwland. Official service point for Urban Arrow, Gazelle Makki and Lovens.',
+        ],
+        'diensten' => [
+            'title_nl' => 'Onderhoud en reparatie',
+            'title_en' => 'Maintenance and repair',
+            'intro_nl' => 'Van een servicebeurt tot het oplossen van een storing: wij zorgen dat je bakfiets veilig en soepel blijft rijden.',
+            'intro_en' => 'From a service to fixing a fault: we keep your cargo bike riding safely and smoothly.',
+            'body_nl'  => 'Regelmatig onderhoud verlengt de levensduur van je bakfiets en voorkomt dure reparaties. Laat je bakfiets daarom op tijd controleren door een specialist.',
+            'body_en'  => 'Regular maintenance extends the life of your cargo bike and prevents expensive repairs. Have it checked by a specialist in time.',
+            'meta_nl'  => 'Onderhoud, servicebeurten en reparatie van elektrische bakfietsen in Amersfoort. Remmen, banden, aandrijving en Bosch accu- en motorcontrole.',
+            'meta_en'  => 'Servicing and repair of electric cargo bikes in Amersfoort. Brakes, tyres, drivetrain and Bosch battery and motor checks.',
+        ],
+        'prijzen' => [
+            'title_nl' => 'Prijzen',
+            'title_en' => 'Prices',
+            'intro_nl' => 'Duidelijke prijzen voor onderhoud en servicebeurten.',
+            'intro_en' => 'Clear prices for maintenance and servicing.',
+            'body_nl'  => 'Twijfel je wat je bakfiets nodig heeft? Neem contact op, dan denken we met je mee.',
+            'body_en'  => 'Not sure what your cargo bike needs? Get in touch and we will help you decide.',
+            'meta_nl'  => 'Prijzen voor bakfiets onderhoud en servicebeurten bij Bakfietsgarage Amersfoort.',
+            'meta_en'  => 'Prices for cargo bike maintenance and servicing at Bakfietsgarage Amersfoort.',
+        ],
+        'merken' => [
+            'title_nl' => 'Onze merken',
+            'title_en' => 'Our brands',
+            'intro_nl' => 'Wij zijn officieel servicepunt van drie bakfietsmerken. Door die focus kennen we deze fietsen door en door.',
+            'intro_en' => 'We are an official service point for three cargo bike brands. That focus means we know these bikes inside out.',
+            'body_nl'  => 'Rijd je op een ander merk? Neem contact op, dan kijken we of we je kunnen helpen.',
+            'body_en'  => 'Riding a different brand? Get in touch and we will see if we can help.',
+            'meta_nl'  => 'Officieel servicepunt van Urban Arrow, Gazelle Makki en Lovens bakfietsen in Amersfoort.',
+            'meta_en'  => 'Official service point for Urban Arrow, Gazelle Makki and Lovens cargo bikes in Amersfoort.',
+        ],
+        'service' => [
+            'title_nl' => 'Haal- en brengservice',
+            'title_en' => 'Pickup and delivery',
+            'intro_nl' => 'Geen tijd om langs te komen? Wij halen je bakfiets op en brengen hem weer terug.',
+            'intro_en' => 'No time to drop by? We pick up your cargo bike and bring it back.',
+            'body_nl'  => "Je maakt een afspraak en wij halen je bakfiets bij je op. Na het onderhoud of de reparatie brengen we hem weer terug.\n\nNeem contact op voor de mogelijkheden in jouw wijk.",
+            'body_en'  => "Make an appointment and we will collect your cargo bike from your home. After the maintenance or repair, we bring it back.\n\nGet in touch to check the options in your area.",
+            'meta_nl'  => 'Haal- en brengservice voor je bakfiets in Amersfoort, Vathorst en Nieuwland.',
+            'meta_en'  => 'Pickup and delivery service for your cargo bike in Amersfoort, Vathorst and Nieuwland.',
+        ],
+        'over-ons' => [
+            'title_nl' => 'Over ons',
+            'title_en' => 'About us',
+            'intro_nl' => 'Bakfietsgarage Amersfoort is de bakfietswerkplaats van Fiets Boek aan de Arnhemseweg.',
+            'intro_en' => 'Bakfietsgarage Amersfoort is the cargo bike workshop of Fiets Boek on the Arnhemseweg.',
+            'body_nl'  => "Wij weten hoe belangrijk je bakfiets is: voor de kinderen, de boodschappen of je werk. Daarom zorgen we voor een snelle en zorgvuldige reparatie, zodat je weer veilig de weg op kunt.\n\nBakfietsgarage Amersfoort is onderdeel van Fiets Boek Fietsenwinkel Amersfoort.",
+            'body_en'  => "We know how important your cargo bike is: for the kids, the shopping or your work. That is why we repair it quickly and carefully, so you can get back on the road safely.\n\nBakfietsgarage Amersfoort is part of Fiets Boek bicycle shop in Amersfoort.",
+            'meta_nl'  => 'Bakfietsgarage Amersfoort, de bakfietswerkplaats van Fiets Boek aan de Arnhemseweg in Amersfoort.',
+            'meta_en'  => 'Bakfietsgarage Amersfoort, the cargo bike workshop of Fiets Boek on the Arnhemseweg in Amersfoort.',
+        ],
+        'contact' => [
+            'title_nl' => 'Contact en afspraak maken',
+            'title_en' => 'Contact and appointments',
+            'intro_nl' => 'Wij werken alleen op afspraak. Bel, app of mail ons en we plannen je bakfiets in.',
+            'intro_en' => 'We work by appointment only. Call, message or email us and we will book in your cargo bike.',
+            'body_nl'  => '',
+            'body_en'  => '',
+            'meta_nl'  => 'Maak een afspraak bij Bakfietsgarage Amersfoort. Bel, app of mail ons.',
+            'meta_en'  => 'Make an appointment at Bakfietsgarage Amersfoort. Call, message or email us.',
+        ],
+    ],
+
+    // [titel NL, titel EN, tekst NL, tekst EN]
+    'services' => [
+        ['Onderhoud en servicebeurten', 'Maintenance and servicing',
+         'Een complete controle en afstelling, zodat je bakfiets veilig en betrouwbaar blijft.',
+         'A full check and adjustment, so your cargo bike stays safe and reliable.'],
+        ['Reparatie van elektrische bakfietsen', 'Electric cargo bike repair',
+         'Snelle en vakkundige reparatie van je elektrische bakfiets.',
+         'Fast and expert repair of your electric cargo bike.'],
+        ['Storingen opsporen', 'Fault diagnosis',
+         'Doet je bakfiets het niet goed? Wij zoeken uit wat er mis is en lossen het op.',
+         'Something not working right? We find out what is wrong and fix it.'],
+        ['Remmen, banden en aandrijving', 'Brakes, tyres and drivetrain',
+         'Vervangen en afstellen van remmen, banden, ketting en andere onderdelen.',
+         'Replacing and adjusting brakes, tyres, chain and other parts.'],
+        ['Accu- en motorcontrole (Bosch)', 'Battery and motor check (Bosch)',
+         'Uitlezen en controleren van de Bosch accu en motor.',
+         'Reading out and checking the Bosch battery and motor.'],
+        ['Haal- en brengservice', 'Pickup and delivery',
+         'Wij halen je bakfiets op en brengen hem na het onderhoud weer terug.',
+         'We collect your cargo bike and bring it back after the work is done.'],
+    ],
+
+    // [titel NL, titel EN, toelichting NL, toelichting EN] — de prijs vult de klant zelf in via het CMS.
+    'prices' => [
+        ['Kleine servicebeurt', 'Basic service', 'Controle en afstelling van remmen, versnellingen en banden.', 'Check and adjustment of brakes, gears and tyres.'],
+        ['Grote servicebeurt', 'Full service', 'Complete onderhoudsbeurt van je bakfiets.', 'Complete maintenance of your cargo bike.'],
+        ['Accu- en motorcontrole (Bosch)', 'Battery and motor check (Bosch)', 'Uitlezen en controleren van het elektrische systeem.', 'Reading out and checking the electric system.'],
+        ['Haal- en brengservice', 'Pickup and delivery', 'Ophalen en terugbrengen van je bakfiets.', 'Collecting and returning your cargo bike.'],
+    ],
+
+    'settings' => [
+        'phone'            => '033-7505833',
+        'whatsapp'         => '033-7505833',
+        'email'            => 'info@fiets-boek.nl',
+        'address_line1'    => 'Arnhemseweg 44-46',
+        'address_line2'    => '3817 CJ Amersfoort',
+        'opening_hours_nl' => "Maandag: gesloten\nDinsdag: 09.00 – 17.00\nWoensdag: 09.00 – 17.00\nDonderdag: gesloten\nVrijdag: 09.00 – 17.00\nZaterdag: 09.00 – 16.00\nZondag: gesloten",
+        'opening_hours_en' => "Monday: closed\nTuesday: 09:00 – 17:00\nWednesday: 09:00 – 17:00\nThursday: closed\nFriday: 09:00 – 17:00\nSaturday: 09:00 – 16:00\nSunday: closed",
+    ],
+];

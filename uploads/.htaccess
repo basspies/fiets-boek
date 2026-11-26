@@ -1,0 +1,5 @@
+# In de uploadmap mogen alleen afbeeldingen staan: nooit PHP uitvoeren.
+<FilesMatch "\.(php|phtml|phar|php\d)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

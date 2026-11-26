@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+# Interne bestanden nooit via de browser bereikbaar maken.
+RewriteRule ^(includes|database|_laravel-verwijderen|_website-voorbeeld)(/|$) - [F,L]
+RewriteRule ^(config\.php|config\.example\.php|setup\.php|admin-login\.local\.txt|README\.md)$ - [F,L]
+RewriteRule (^|/)\. - [F,L]
+
+# Website (Nielan): stuur nette URL's zoals /nl/diensten naar index.php
+# door de twee regels hieronder aan te zetten zodra index.php bestaat.
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^ index.php [L,QSA]

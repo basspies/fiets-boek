@@ -1,0 +1,17 @@
+# Lokale instellingen en wachtwoorden
+config.php
+admin-login.local.txt
+
+# Lokale database
+database/*.sqlite
+
+# Foto's die via het CMS zijn geüpload
+uploads/*
+!uploads/.htaccess
+
+# Oude Laravel-poging (map mag weg)
+_laravel-verwijderen/
+
+.claude/
+.DS_Store
+Thumbs.db

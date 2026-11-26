@@ -1,0 +1,4 @@
+# Hulpbestanden (_init.php, _header.php, _footer.php) niet direct openen.
+<FilesMatch "^_">
+    Require all denied
+</FilesMatch>
